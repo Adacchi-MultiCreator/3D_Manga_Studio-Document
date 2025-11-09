@@ -1,0 +1,824 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Blenderアドオン「3D Manga Studios」の使い方と機能をまとめたドキュメントサイトです。">
+      
+      
+        <meta name="author" content="Arstchi">
+      
+      
+      
+        <link rel="prev" href="option_materials.html">
+      
+      
+        <link rel="next" href="translation.html">
+      
+      
+      <link rel="icon" href="assets/icon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>開発向けガイド - 3D漫画スタジオ ドキュメント</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,300i,400,400i,700,700i%7CInconsolata:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans JP";--md-code-font:"Inconsolata"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="index.html" title="3D漫画スタジオ ドキュメント" class="md-header__button md-logo" aria-label="3D漫画スタジオ ドキュメント" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            3D漫画スタジオ ドキュメント
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              開発向けガイド
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="purple" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  3D漫画スタジオとは
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="installation.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  インストール
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="instructions.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  使い方
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Manga_Tone_Shader.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Manga Tone Shader
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="option_materials.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  スクリーントーンマテリアル
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="developer_guide.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  開発向けガイド
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="translation.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  翻訳について
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="help.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ヘルプ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="license.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ライセンス
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="3D漫画スタジオ ドキュメント" class="md-nav__button md-logo" aria-label="3D漫画スタジオ ドキュメント" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    3D漫画スタジオ ドキュメント
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3D漫画スタジオとは
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="installation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    インストール
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="instructions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    使い方
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Manga_Tone_Shader.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manga Tone Shader
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="option_materials.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    スクリーントーンマテリアル
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    開発向けガイド
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="developer_guide.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    開発向けガイド
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. アドオンの全体的なアーキテクチャ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 各ファイルの役割と連携
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 翻訳システムの仕組み
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 開発における注意点とベストプラクティス
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="translation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    翻訳について
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="help.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ヘルプ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="license.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ライセンス
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">開発者ガイド</h1>
+<p>このドキュメントは、「3D Manga Studios」Blenderアドオンの内部構造、各モジュールの役割、翻訳システムの仕組み、および開発におけるベストプラクティスを理解するためのガイドです。</p>
+<h3 id="1">1. アドオンの全体的なアーキテクチャ</h3>
+<p>「3D Manga Studios」アドオンは、複数のPythonモジュールに分割されており、それぞれが特定の機能領域を担当しています。<code>__init__.py</code>がアドオンのエントリポイントであり、他のモジュールをインポートして登録・登録解除を行います。</p>
+<p>主要なモジュールは以下の通りです。</p>
+<ul>
+<li><code>__init__.py</code>: アドオンのメインファイル。<code>bl_info</code>、モジュールのインポート、翻訳辞書のロードと登録/登録解除処理を管理します。</li>
+<li><code>collection_setup.py</code>: Blenderシーン内のコレクション（オブジェクトのグループ化）に関するセットアップや管理を行います。マンガ制作に特化したコレクション階層を生成する機能を提供します。</li>
+<li><code>light_collection.py</code>: シーン内のライト（光源）のコレクションに特化した管理を行います。ライトコレクションの追加、ライトの自動生成、ライトリンクの設定などを担当します。</li>
+<li><code>shader_setup.py</code>: マンガトーンシェーダーとアウトラインをオブジェクトに適用するための機能を提供します。マテリアルの生成、シェーダーの適用、ソリディファイモディファイアを使用したアウトラインの作成を管理します。</li>
+<li><code>shader_operator.py</code>: マンガトーンシェーダーのパラメータをUIで操作するための機能を提供します。シェーダーノードグループの入力を動的に検出し、それらをBlenderのプロパティとして表示し、マテリアル接続機能を提供します。</li>
+<li><code>translation/</code>: アドオンの多言語対応のための翻訳ファイルが格納されているディレクトリです。<ul>
+<li><code>Manga Tone Shader parameter.json</code>: マンガトーンシェーダーの特定のパラメータ名や説明文の翻訳データを含むJSONファイルです。</li>
+<li><code>UI words.json</code>: アドオンのユーザーインターフェース（UI）で使用される一般的な単語やフレーズの翻訳データを含むJSONファイルです。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2">2. 各ファイルの役割と連携</h3>
+<ul>
+<li><strong><code>__init__.py</code></strong>: アドオンがBlenderにロードされる際に最初に実行されます。<code>bl_info</code>でアドオンのメタデータを定義し、<code>register()</code>関数で他のすべてのモサブモジュール（<code>collection_setup</code>, <code>light_collection</code>, <code>shader_setup</code>, <code>shader_operator</code>）の<code>register()</code>関数を呼び出します。これにより、各モジュールで定義されたパネル、オペレーター、プロパティなどがBlenderに登録されます。<code>unregister()</code>関数も同様に、アドオンがBlenderから削除される際に各モジュールの<code>unregister()</code>関数を呼び出します。</li>
+<li><strong><code>collection_setup.py</code></strong>: シーンの初期設定として、整理されたコレクション構造を提供します。他のモジュールがオブジェクトを特定のコレクションに配置する際の基盤となります。</li>
+<li><strong><code>light_collection.py</code></strong>: ライティングの管理に特化しており、<code>collection_setup.py</code>で作成された「B: Lighting」コレクションを利用してライトを配置します。ライトリンク機能により、特定のライトが特定のオブジェクトにのみ影響するように設定できます。</li>
+<li><strong><code>shader_setup.py</code></strong>: マテリアルとアウトラインの生成を担当し、<code>shader_operator.py</code>が提供するシェーダーパラメータのUIと連携します。例えば、<code>MSA_OT_apply_manga_tone</code>オペレーターで「Manga Tone Shader」を適用した後、<code>shader_operator.py</code>のパネルでそのシェーダーのプロパティを調整できます。</li>
+<li><strong><code>shader_operator.py</code></strong>: 主にUIの動的な生成とシェーダーパラメータの操作に焦点を当てています。<code>shader_setup.py</code>によって適用されたシェーダーのマテリアルノードツリーを読み取り、その入力に基づいてユーザーインターフェースを構築します。<code>depsgraph_update_post</code>ハンドラを使用して、シーンの変更に応じてUIを同期させます。</li>
+</ul>
+<h3 id="3">3. 翻訳システムの仕組み</h3>
+<p>このアドオンは、Blenderの組み込み翻訳システムを活用して多言語対応を実現しています。</p>
+<ul>
+<li><strong>翻訳辞書のロード</strong>: <code>__init__.py</code>内の<code>load_translation_dict()</code>関数が、<code>translation/</code>ディレクトリにある<code>UI words.json</code>と<code>Manga Tone Shader parameter.json</code>を読み込み、Blenderの翻訳システムが理解できる形式の辞書を作成します。</li>
+<li><strong>JSONファイルの構造</strong>: 各JSONファイルは、英語のキー、英語のテキスト、日本語の翻訳を含む配列の配列として構成されています。これにより、キーと翻訳を効率的に管理できます。</li>
+<li><strong>翻訳関数の使用</strong>: 各モジュールでは、<code>bpy.app.translations.pgettext_iface()</code>（UI要素用）や<code>bpy.app.translations.pgettext()</code>（一般的なテキスト用）といったBlenderの翻訳ヘルパー関数を使用しています。これにより、Blenderのユーザー設定でUI言語が変更された際に、アドオンのテキストも自動的に翻訳されます。</li>
+<li><strong><code>_()</code> および <code>T()</code> ヘルパー関数</strong>: <code>shader_operator.py</code>では、<code>_()</code>と<code>T()</code>というカスタムヘルパー関数が定義されており、<code>bpy.context.preferences.view.use_translate_interface</code>の設定に応じて翻訳を適用するかどうかを決定します。これにより、ユーザーがBlenderのUI翻訳をオフにしている場合でも、アドオンが英語で表示されるようになります。</li>
+</ul>
+<h3 id="4">4. 開発における注意点とベストプラクティス</h3>
+<ul>
+<li><strong>モジュール分割</strong>: 各機能は独立したモジュールに分割されており、コードの可読性と保守性を高めています。新しい機能を追加する際は、既存のモジュールに適切に統合するか、新しいモジュールとして追加することを検討してください。</li>
+<li><strong>Blender APIの利用</strong>: BlenderのAPI（<code>bpy</code>モジュール）を効果的に使用し、Blenderの設計思想に沿ったアドオン開発を心がけてください。</li>
+<li><strong>UI/UXの考慮</strong>: ユーザーが直感的に操作できるようなUI/UXを設計することが重要です。パネルの配置、オペレーターの名前、プロパティの説明などは、明確で分かりやすいものにしてください。</li>
+<li><strong>翻訳対応</strong>: 新しいUI要素やテキストを追加する際は、必ず<code>translation/</code>ディレクトリ内のJSONファイルに翻訳エントリを追加し、<code>_()</code>または<code>T()</code>関数を使用して翻訳を適用してください。</li>
+<li><strong>エラーハンドリング</strong>: ユーザーが予期しない操作を行った場合や、必要なリソースが見つからない場合（例: シェーダーマテリアルが見つからない場合）に備えて、適切なエラーメッセージを表示し、アドオンがクラッシュしないように堅牢なエラーハンドリングを実装してください。</li>
+<li><strong>パフォーマンス</strong>: 特に大規模なシーンや複雑な操作を行う場合、アドオンのパフォーマンスに注意してください。不必要なループやAPI呼び出しを避け、効率的なコードを記述してください。</li>
+<li><strong>命名規則</strong>: Blenderアドオンの命名規則（例: パネルは<code>PT_</code>、オペレーターは<code>OT_</code>、プロパティグループは<code>PropertyGroup</code>）に従うことで、コードの一貫性を保ち、他の開発者にとっても理解しやすくなります。</li>
+<li><strong>バージョン管理</strong>: Gitなどのバージョン管理システムを使用して、コードの変更履歴を追跡し、チームでの開発を容易にしてください。</li>
+<li><strong>テスト</strong>: アドオンの各機能が期待通りに動作するかを定期的にテストしてください。特に、Blenderの新しいバージョンへの対応や、既存機能の変更があった場合は、入念なテストが必要です。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy;2025 Arstchi ALL Rights Reserved.
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://x.com/Ars_multidesign" target="_blank" rel="noopener" title="Arstchi on Twitter" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "toc.integrate", "content.tabs.link", "navigation.expand", "navigation.instant"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
