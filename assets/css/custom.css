@@ -1,0 +1,32 @@
+/* h1スタイル */
+.md-typeset h1 {
+    padding: 0.3em 1em;
+    display: inline-block;
+    border-left: 15px solid var(--md-primary-fg-color); /* プライマリカラーを使用 */
+    border-bottom: 5px solid var(--md-primary-fg-color); /* プライマリカラーを使用 */
+    color: var(--md-default-fg-color); /* ライトモードではデフォルトの文字色 */
+    background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent); /* 薄いプライマリカラーを背景に */
+}
+
+.md-typeset h2{
+    padding: 0.3em;
+    display: inline-block;
+    border-bottom: 2px solid var(--md-primary-fg-color); /* プライマリカラーを使用 */
+    color: var(--md-default-fg-color); /* ライトモードではデフォルトの文字色 */
+}
+
+.md-typeset h3{
+    padding: 0.3em;
+    border-bottom: 1px solid var(--md-primary-fg-color); /* プライマリカラーを使用 */
+    color: var(--md-default-fg-color); /* ライトモードではデフォルトの文字色 */
+}
+
+/* ダークモード時のh2スタイル */
+[data-md-color-scheme="slate"] .md-typeset h2 {
+    border-bottom-color: var(--md-accent-fg-color); /* ダークモードではアクセントカラー */
+}
+
+/* ダークモード時のh2スタイル */
+[data-md-color-scheme="slate"] .md-typeset h3 {
+    border-bottom-color: var(--md-accent-fg-color); /* ダークモードではアクセントカラー */
+}
