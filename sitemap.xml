@@ -15,81 +15,25 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/3D_Collection.html"/>
     </url>
     <url>
-        <loc>NoneApply_material_%26_outline.html</loc>
+        <loc>Noneapply_material_%26_outline.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneApply_material_%26_outline.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Apply_material_%26_outline.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneapply_material_%26_outline.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/apply_material_%26_outline.html"/>
     </url>
     <url>
-        <loc>NoneCamera.html</loc>
+        <loc>Nonecamera.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneCamera.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Camera.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonecamera.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/camera.html"/>
     </url>
     <url>
-        <loc>NoneDevelopment.html</loc>
+        <loc>Nonedevelopment.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneDevelopment.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Development.html"/>
-    </url>
-    <url>
-        <loc>NoneHelp.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneHelp.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Help.html"/>
-    </url>
-    <url>
-        <loc>NoneLicense.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneLicense.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/License.html"/>
-    </url>
-    <url>
-        <loc>NoneLight_collection.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneLight_collection.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Light_collection.html"/>
-    </url>
-    <url>
-        <loc>NoneMangaToneShader.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneMangaToneShader.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/MangaToneShader.html"/>
-    </url>
-    <url>
-        <loc>NoneMangaToneShader_property.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneMangaToneShader_property.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/MangaToneShader_property.html"/>
-    </url>
-    <url>
-        <loc>NoneOptionMaterial.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneOptionMaterial.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OptionMaterial.html"/>
-    </url>
-    <url>
-        <loc>NoneRelease.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneRelease.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Release.html"/>
-    </url>
-    <url>
-        <loc>NoneTranslation.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneTranslation.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Translation.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonedevelopment.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/development.html"/>
     </url>
     <url>
         <loc>Noneguide.html</loc>
@@ -99,6 +43,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/guide.html"/>
     </url>
     <url>
+        <loc>Nonehelp.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonehelp.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/help.html"/>
+    </url>
+    <url>
         <loc>Noneinstall.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
@@ -106,11 +57,60 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/install.html"/>
     </url>
     <url>
+        <loc>Nonelicense.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonelicense.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/license.html"/>
+    </url>
+    <url>
+        <loc>Nonelight_collection.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonelight_collection.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/light_collection.html"/>
+    </url>
+    <url>
+        <loc>NonemangaToneShader.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NonemangaToneShader.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/mangaToneShader.html"/>
+    </url>
+    <url>
+        <loc>NonemangaToneShader_property.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NonemangaToneShader_property.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/mangaToneShader_property.html"/>
+    </url>
+    <url>
+        <loc>NoneoptionMaterial.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneoptionMaterial.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/optionMaterial.html"/>
+    </url>
+    <url>
+        <loc>Nonerelease.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonerelease.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/release.html"/>
+    </url>
+    <url>
         <loc>Nonerequirements.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ja" href="Nonerequirements.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/requirements.html"/>
+    </url>
+    <url>
+        <loc>Nonetranslation.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonetranslation.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/translation.html"/>
     </url>
     <url>
         <loc>Noneen/index.html</loc>
@@ -127,81 +127,25 @@
         <xhtml:link rel="alternate" hreflang="ja" href="None3D_Collection.html"/>
     </url>
     <url>
-        <loc>Noneen/Apply_material_%26_outline.html</loc>
+        <loc>Noneen/apply_material_%26_outline.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Apply_material_%26_outline.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneApply_material_%26_outline.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/apply_material_%26_outline.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Noneapply_material_%26_outline.html"/>
     </url>
     <url>
-        <loc>Noneen/Camera.html</loc>
+        <loc>Noneen/camera.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Camera.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneCamera.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/camera.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonecamera.html"/>
     </url>
     <url>
-        <loc>Noneen/Development.html</loc>
+        <loc>Noneen/development.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Development.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneDevelopment.html"/>
-    </url>
-    <url>
-        <loc>Noneen/Help.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Help.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneHelp.html"/>
-    </url>
-    <url>
-        <loc>Noneen/License.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/License.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneLicense.html"/>
-    </url>
-    <url>
-        <loc>Noneen/Light_collection.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Light_collection.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneLight_collection.html"/>
-    </url>
-    <url>
-        <loc>Noneen/MangaToneShader.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/MangaToneShader.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneMangaToneShader.html"/>
-    </url>
-    <url>
-        <loc>Noneen/MangaToneShader_property.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/MangaToneShader_property.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneMangaToneShader_property.html"/>
-    </url>
-    <url>
-        <loc>Noneen/OptionMaterial.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/OptionMaterial.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneOptionMaterial.html"/>
-    </url>
-    <url>
-        <loc>Noneen/Release.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Release.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneRelease.html"/>
-    </url>
-    <url>
-        <loc>Noneen/Translation.html</loc>
-        <lastmod>2026-02-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/Translation.html"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="NoneTranslation.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/development.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonedevelopment.html"/>
     </url>
     <url>
         <loc>Noneen/guide.html</loc>
@@ -211,6 +155,13 @@
         <xhtml:link rel="alternate" hreflang="ja" href="Noneguide.html"/>
     </url>
     <url>
+        <loc>Noneen/help.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/help.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonehelp.html"/>
+    </url>
+    <url>
         <loc>Noneen/install.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
@@ -218,10 +169,59 @@
         <xhtml:link rel="alternate" hreflang="ja" href="Noneinstall.html"/>
     </url>
     <url>
+        <loc>Noneen/license.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/license.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonelicense.html"/>
+    </url>
+    <url>
+        <loc>Noneen/light_collection.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/light_collection.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonelight_collection.html"/>
+    </url>
+    <url>
+        <loc>Noneen/mangaToneShader.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/mangaToneShader.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NonemangaToneShader.html"/>
+    </url>
+    <url>
+        <loc>Noneen/mangaToneShader_property.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/mangaToneShader_property.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NonemangaToneShader_property.html"/>
+    </url>
+    <url>
+        <loc>Noneen/optionMaterial.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/optionMaterial.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="NoneoptionMaterial.html"/>
+    </url>
+    <url>
+        <loc>Noneen/release.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/release.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonerelease.html"/>
+    </url>
+    <url>
         <loc>Noneen/requirements.html</loc>
         <lastmod>2026-02-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneen/requirements.html"/>
         <xhtml:link rel="alternate" hreflang="ja" href="Nonerequirements.html"/>
+    </url>
+    <url>
+        <loc>Noneen/translation.html</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/translation.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="Nonetranslation.html"/>
     </url>
 </urlset>
