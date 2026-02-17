@@ -4,15 +4,10 @@
 ## <i class="bi bi-flag-fill"></i>  Welcome to 3D Manga Studios
 3D Manga Studios is a helper tool for Blender that efficiently and faithfully reproduces manga/comic-like rendering on objects you create.
 
-## <i class="bi bi-play-btn-fill"></i> Watch the Tutorial Video
+## <i class="bi bi-play-btn-fill"></i> Watch the Tutorial Video <span class="new-label">NEW</span>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe 
-    src="https://www.youtube.com/watch?v=GnjNT4QUgOM"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <iframe src="https://www.youtube.com/embed/GnjNT4QUgOM?si=RSofeiiEqfTtyxym&amp;start=5" title="YouTube video player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 This video explains how to use the 3D Manga Studio add-on step by step from the beginning.

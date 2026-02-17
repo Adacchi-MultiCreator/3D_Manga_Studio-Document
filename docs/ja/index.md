@@ -4,15 +4,10 @@
 ## <i class="bi bi-flag-fill"></i>  ようこそ3D漫画スタジオへ
 3D漫画スタジオはBlenderで制作したオブジェクトに対して漫画・コミックのような表現を効率的に、本格的に再現する支援ツールになります。
 
-## <i class="bi bi-play-btn-fill"></i> 使い方を動画で確認する
+## <i class="bi bi-play-btn-fill"></i> 使い方を動画で確認する <span class="new-label">NEW</span>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-  <iframe 
-    src="https://www.youtube.com/watch?v=GnjNT4QUgOM"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <iframe src="https://www.youtube.com/embed/GnjNT4QUgOM?si=RSofeiiEqfTtyxym&amp;start=5" title="YouTube video player" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 この動画では、3D Manga Studio アドオンの使い方をはじめから順番に解説しています。  

@@ -79,17 +79,17 @@ plugins:
             - "使い方":
                 - "ガイド": guide.md
                 - "3Dマンガコレクション生成": 3D_Collection.md
-                - "カメラ設定": Camera.md
-                - "マテリアルとアウトラインの適用": Apply_material_&_outline.md
-                - "ライトコレクション": Light_collection.md
-                - "Manga Tone Shader": MangaToneShader.md
-            - "Manga Tone Shader 仕様": MangaToneShader_property.md
-            - "オプションマテリアル": OptionMaterial.md
-            - "開発": Development.md
-            - "翻訳": Translation.md
-            - "ヘルプ": Help.md
-            - "リリースノート": Release.md
-            - "ライセンス": License.md
+                - "カメラ設定": camera.md
+                - "マテリアルとアウトラインの適用": apply_material_&_outline.md
+                - "ライトコレクション": light_collection.md
+                - "Manga Tone Shader": mangaToneShader.md
+            - "Manga Tone Shader 仕様": mangaToneShader_property.md
+            - "オプションマテリアル": optionMaterial.md
+            - "開発": development.md
+            - "翻訳": translation.md
+            - "ヘルプ": help.md
+            - "リリースノート": release.md
+            - "ライセンス": license.md
         - locale: en
           name: "English"
           build: true
@@ -101,17 +101,17 @@ plugins:
             - "Usage":
                 - "Guide": guide.md
                 - "Generate 3D Manga Collection": 3D_Collection.md
-                - "Camera Settings": Camera.md
-                - "Apply Material & Outline": Apply_material_&_outline.md
-                - "Light Collection": Light_collection.md
-                - "Manga Tone Shader": MangaToneShader.md
-            - "Manga Tone Shader Specs": MangaToneShader_property.md
-            - "Optional Materials": OptionMaterial.md
-            - "Development": Development.md
-            - "Translation": Translation.md
-            - "Help": Help.md
-            - "Release Notes": Release.md
-            - "License": License.md
+                - "Camera Settings": camera.md
+                - "Apply Material & Outline": apply_material_&_outline.md
+                - "Light Collection": light_collection.md
+                - "Manga Tone Shader": mangaToneShader.md
+            - "Manga Tone Shader Specs": mangaToneShader_property.md
+            - "Optional Materials": optionMaterial.md
+            - "Development": development.md
+            - "Translation": translation.md
+            - "Help": help.md
+            - "Release Notes": release.md
+            - "License": license.md
   - glightbox
 
 markdown_extensions:
