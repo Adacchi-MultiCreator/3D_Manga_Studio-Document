@@ -1,0 +1,119 @@
+﻿site_name: "3D Manga Studios"
+site_description: "Blender add-on and 3D Manga Studios documentation."
+site_author: "Adacchi-MultiCreator"
+copyright: "&copy;2025 Adacchi-MultiCreator ALL Rights Reserved."
+use_directory_urls: false
+
+theme:
+  logo: "assets/items/logo positive.png"
+  favicon: "assets/items/icon.png"
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+  name: "material"
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: "Switch to dark mode"
+    - scheme: slate
+      primary: deep purple
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: "Switch to light mode"
+  language: "ja"
+  font:
+    text: "Noto Sans JP"
+    code: "Inconsolata"
+  icon:
+    # 必要最低限の定義。空でも属性が存在するためエラー回避できます
+    # ロゴアイコン例（任意）
+    logo: material/library
+    # アドモニション（補足）アイコンの例（任意）
+    admonition:
+      note: material/note
+      abstract: material/check
+      info: material/information-outline
+      tip: material/lightbulb-on-outline
+      success: material/check-bold
+      question: material/help-circle-outline
+      warning: material/alert-outline
+      failure: material/close-octagon-outline
+      danger: material/alert-octagon-outline
+      bug: material/bug-outline
+      example: material/flask-outline
+      quote: material/format-quote-open-outline
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: "https://x.com/3d_manga19094"
+      name: "mebiusbox2 on Twitter"
+    - icon: fontawesome/brands/github
+      link: "https://github.com/Adacchi-MultiCreator/3D-Manga-Studios-Issues"
+  generator: false
+
+extra_css:
+  - "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  - "assets/css/custom.css"
+
+plugins:
+  - search:
+      lang: "ja"
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: ja
+          name: "日本語"
+          default: true
+          build: true
+          nav:
+            - "TOP": index.md
+            - "はじめに":
+                - "動作環境": requirements.md
+                - "インストール": install.md
+            - "使い方":
+                - "ガイド": guide.md
+                - "3Dマンガコレクション生成": 3D_Collection.md
+                - "カメラ設定": Camera.md
+                - "マテリアルとアウトラインの適用": Apply_material_&_outline.md
+                - "ライトコレクション": Light_collection.md
+                - "Manga Tone Shader": MangaToneShader.md
+            - "Manga Tone Shader 仕様": MangaToneShader_property.md
+            - "オプションマテリアル": OptionMaterial.md
+            - "開発": Development.md
+            - "翻訳": Translation.md
+            - "ヘルプ": Help.md
+            - "リリースノート": Release.md
+            - "ライセンス": License.md
+        - locale: en
+          name: "English"
+          build: true
+          nav:
+            - "TOP": index.md
+            - "Getting Started":
+                - "Requirements": requirements.md
+                - "Install": install.md
+            - "Usage":
+                - "Guide": guide.md
+                - "Generate 3D Manga Collection": 3D_Collection.md
+                - "Camera Settings": Camera.md
+                - "Apply Material & Outline": Apply_material_&_outline.md
+                - "Light Collection": Light_collection.md
+                - "Manga Tone Shader": MangaToneShader.md
+            - "Manga Tone Shader Specs": MangaToneShader_property.md
+            - "Optional Materials": OptionMaterial.md
+            - "Development": Development.md
+            - "Translation": Translation.md
+            - "Help": Help.md
+            - "Release Notes": Release.md
+            - "License": License.md
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - pymdownx.keys
