@@ -49,4 +49,4 @@ Currently supports Blender 4.5+.
 - **Forum/Community**: <https://github.com/Adacchi-MultiCreator/3D-Manga-Studios-Issues>
 - **SUPERHIVE Market (formerly Blender Market)**: <https://superhivemarket.com/products/3d-manga-studios>
 
-For support, see the [Help page](Help.md).
+For support, see the [Help page](help.md).

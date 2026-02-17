@@ -52,7 +52,7 @@ Use the color inputs and the drop slots to assign tone materials from Screen ton
 
 Adjust scale, rotation, etc. of dropped tone textures.
 
-[Learn more about Screen tone materials](OptionMaterial.md)
+[Learn more about Screen tone materials](optionMaterial.md)
 
 ## <i class="bi bi-flag-fill"></i>  Done!
 That completes the five steps to build a manga scene. Even Blender beginners can construct a manga-like 3D scene in a few clicks. Now:

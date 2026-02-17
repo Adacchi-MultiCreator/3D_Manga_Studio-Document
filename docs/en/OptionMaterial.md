@@ -84,4 +84,4 @@ These materials work best combined with Manga Tone Shader.
     | --- | --- |
     |![Before](assets/img/EN/MTS DD property.png)|![After](assets/img/EN/MTS DD property after.png)|
 
-See also: [Manga Tone Shader docs](MangaToneShader.md).
+See also: [Manga Tone Shader docs](mangaToneShader.md).

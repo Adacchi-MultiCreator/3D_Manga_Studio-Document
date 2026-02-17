@@ -92,4 +92,4 @@
 
 これにより、オブジェクトの特定の領域にスクリーントーンを適用し、より漫画らしい表現を作り出すことができます。
 
-詳しくは、[Manga Tone Shaderのドキュメント](MangaToneShader.md)をご参照ください。
+詳しくは、[Manga Tone Shaderのドキュメント](mangaToneShader.md)をご参照ください。
