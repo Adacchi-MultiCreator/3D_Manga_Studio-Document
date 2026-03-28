@@ -37,6 +37,9 @@ The included Manga Tone Shader makes it easy to create authentic manga tones, su
 
 ## <i class="bi bi-clock-history"></i>  Changelog
 
+- v1.0.1: Initial release  
+  Added a camera focal length property to the Camera Settings section, enabling adjustment of perspective.  
+  Fixed an issue where, after applying the Manga Tone Shader, changing a material name would disconnect the linked screentone material. Connections are now preserved even when material names are changed.
 - v1.0.0: Initial release
 
 ## <i class="bi bi-c-square-fill"></i>  License
